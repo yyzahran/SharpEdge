@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sharp Edge | Best Technology For Your Company</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 1100px)" href="css/widescreen.css">
+    <script src="https://kit.fontawesome.com/6f5723ef35.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body id="home">
+    <!-- Navbar -->
+    <nav id="navbar">
+      <h1 class="logo">
+        <span class="text-primary">
+          <i class="fas fa-book-open"></i> Sharp</span>Edge</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#what">What</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Header - showcase -->
+    <header id="showcase">
+      <div class="showcase-content">
+        <h1 class="l-heading">
+          Redefining The Future Through Technology
+        </h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nostrum quibusdam
+          necessitatibus accusamus
+          consequatur earum.</p>
+        <a href="#what" class="btn">Read More</a>
+      </div>
+    </header>
+    <!-- Section - what we do -->
+    <section id="what" class="bg-light py-1">
+      <div class="container">
+        <h2 class="m-heading text-center"><span class="text-primary">What</span> We Do</h2>
+        <div class="items">
+          <div class="item">
+            <i class="fas fa-database fa-2x"></i>
+            <div>
+              <h3>Database Management</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, laborum.</p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fas fa-ethernet fa-2x"></i>
+            <div>
+              <h3>Smart Manufacturing</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, dicta.</p>
+            </div>
+          </div>
+          <div class="item">
+            <i class="fas fa-laptop fa-2x"></i>
+            <div>
+              <h3>Targetted Marketing</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nobis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section - who we are -->
+    <section id="who">
+      <!-- We won't use a container here because it will go all the way to the edge -->
+      <!-- The section itself is the container -->
+      <!-- <div class="container"> -->
+      <div class="who-img">
+      </div>
+      <div class="who-text bg-dark p-2">
+        <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+        <p class="py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor porro impedit distinctio rerum
+          omnis?
+          Molestias doloremque eligendi cupiditate laboriosam quas, iure animi distinctio, assumenda voluptate nesciunt
+          voluptatem quod. Voluptas, dignissimos?</p>
+        <h3>Our Team</h3>
+        <ul class="list">
+          <li>Thom Yorke: CEO</li>
+          <li>Jimi Hendrix: CFO</li>
+          <li>Miles Kennedy: Senior Web Developer</li>
+          <li>Dave Mustaine: QA Manager</li>
+          <li>Randy Blythe: Creative Director</li>
+        </ul>
+      </div>
+    </section>
+    <!-- Section - clients -->
+    <section id="clients" class="py-1">
+      <div class="container">
+        <h2 class="m-heading text-center">
+          <span class="text-primary">Our</span>
+          Clients
+        </h2>
+        <div class="items py-1">
+          <div><img src="./img/logos/logo1.png" alt="client-logo"></div>
+          <div><img src="./img/logos/logo2.png" alt="client-logo"></div>
+          <div><img src="./img/logos/logo3.png" alt="client-logo"></div>
+          <div><img src="./img/logos/logo4.png" alt="client-logo"></div>
+          <div><img src="./img/logos/logo5.png" alt="client-logo"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Section - contact -->
+    <section id="contact">
+
+      <div class="contact-form bg-primary p-2">
+        <h2 class="m-heading">Contact Us</h2>
+        <p>Please use the form below to contact us</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter Name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Enter Email">
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <input type="submit" value="Send" class="btn btn-dark">
+        </form>
+      </div>
+      <div class="map"></div>
+    </section>
+    <!-- Footer -->
+    <footer id="main-footer" class="bg-dark text-center py-1">
+      <div class="container">
+        <p>Copyright &copy; 2019, SharpEdge, ALl Rights Reserved</p>
+      </div>
+    </footer>
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!-- Local JavaScript file -->
+    <script src="javascript/main.js"></script>
+    <!-- Google maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA_9rvxBR4OKunisrJhrspMNlY4pYHxTs&callback=initMap"
+      async defer></script>
+
+  </body>
+
+</html>
+
+<!-- AIzaSyDA_9rvxBR4OKunisrJhrspMNlY4pYHxTs -->

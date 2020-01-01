@@ -84,6 +84,7 @@ p {
   display: inline-block;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
   padding: .5rem 2rem;
   border: none;
   background: #93cb52;
